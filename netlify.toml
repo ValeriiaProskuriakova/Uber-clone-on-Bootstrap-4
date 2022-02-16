@@ -1,9 +1,0 @@
-[build]
-  publish = "public"
-  command = "gulp build"
-
-[context.deploy-preview]
-  command = "gulp build-preview"
-
-[context.branch-deploy]
-  command = "gulp build-debug"
