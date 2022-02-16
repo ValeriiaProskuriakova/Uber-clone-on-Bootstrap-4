@@ -1,3 +1,2 @@
 [build]
-  publish = "public"
-  command = "gulp build"
+  command = “CI= npm run build” 
